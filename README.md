@@ -45,10 +45,7 @@ Thus, I propose the following attack plan:
 
 With that we can safely analyze `boot0` and decide if tempering with the `.sax` file is safe enough.
 
-## Related Work
-
-* http://www.rc-cam.com/forum/index.php?/topic/2064-hacking-the-i2c-interface-of-spektrum-dx-and-ar/
-* http://forum.mikrokopter.de/topic-post242250.html#post242250
+## Related Work (From previous repository) 
 * https://github.com/opentx/opentx
 
 ## Videos
