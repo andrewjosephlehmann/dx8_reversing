@@ -1,4 +1,8 @@
-My playground to reverse engineer the firmware update file of the Spektrum DX8.
+This is a fork of a previous repository that has not been updated in eight years, and I intend to maintain this repository in hopes of fixing my DX8 and maintaining it for years to come. With the potential of slight hardware modifications to ensure that the transmitter will continue to work reliably in the years to come. 
+
+Recent notes: upon opening my old DX8, I saw no evident hardware issues despite it not being willing to boot. This is unfortunate since it is likely an internal flash error, which was the original purpose of this repository, to try and understand 'boot0,' which may have been corrupted in my case, likely electrostatic discharge, or a bitflip from a cosmic ray, causing the internal flash to corrupt.  
+
+Below are some of the unmodified contents of the old repository, which are not of my work. 
 
 The `.sax` extension indicates their custom file format for describing firmware payload.
 It has simple textual format, that are likely instructions for a zero-stage bootloader, let's call it `boot0`.
