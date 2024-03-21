@@ -1,5 +1,5 @@
 #!/usr/local/bin/python2
-
+# Rewrite for python3
 import sys, struct
 
 with open(sys.argv[1], "r") as fd:
