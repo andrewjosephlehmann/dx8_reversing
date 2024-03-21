@@ -1,6 +1,6 @@
 SHELL := bash
 
-# define the path to your arm toolchain, android ndk works fine for me.
+# define the path to your arm toolchain
 YOUR_ARM_PREFIX ?= ~/work/monodroid.c9/monodroid/external/android-sdk-tool/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-
 
 CC := $(YOUR_ARM_PREFIX)gcc
